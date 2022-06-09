@@ -5,6 +5,7 @@
     <classes>
       <class name="takescreenshotdynamically.TestCase">
         <methods>
+          <include name="fail1"/>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="fail2"/>
