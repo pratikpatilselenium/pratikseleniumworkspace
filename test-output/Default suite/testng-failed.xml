@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="takescreenshotdynamically.TestCase">
+      <class name="testngpack.DataProvider">
         <methods>
-          <include name="fail1"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="fail2"/>
+          <include name="loginActitime"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- takescreenshotdynamically.TestCase -->
+      </class> <!-- testngpack.DataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
